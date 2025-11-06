@@ -11,12 +11,12 @@ knitr::opts_chunk$set(
 )
 ```
 
-# my6136 <img src="https://friendly.github.io/psy6136/icons/psy6136-highres.png" height=48 align="right>
+# my6136 <img src="https://friendly.github.io/psy6136/icons/psy6136-highres.png" height="64px" align="right">
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-This GitHub repo provides a template you can use yo organize your work for
+This GitHub repo provides a template you can use to organize your work for
 [Psy6136: Categorical Data Analysis]() (or any course). It provides:
 
 * A reasonable organization of folders for your work. Feel free to add any others
