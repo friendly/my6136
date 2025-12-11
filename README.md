@@ -79,8 +79,10 @@ this in RStudio.
 
 ## Using Git and GitHub
 
-This project is set up…
+For more details on using Git and Github for working with R,
 
 See:
-<https://jennybc.github.io/2014-05-12-ubc/ubc-r/session2.4_github.html>
-<https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r>
+
+- <https://jennybc.github.io/2014-05-12-ubc/ubc-r/session2.4_github.html>
+
+- <https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r>
