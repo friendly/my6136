@@ -8,7 +8,9 @@
 <!-- badges: end -->
 
 This GitHub repo provides a template you can use to organize your work
-for [Psy6136: Categorical Data Analysis]() (or any course). It provides:
+for [Psy6136: Categorical Data
+Analysis](https://friendly.github.io/psy6136/) (or any course). It
+provides:
 
 - A reasonable organization of folders for your work. Feel free to add
   any others
@@ -27,13 +29,57 @@ fs::dir_tree(recurse = FALSE)
 #> └── tutorials
 ```
 
+- Some templates for using Rmarkdown in assignments or projects and also
+  for setting up R scripts so you “compile” them with [knitr]() to
+  produce output in HTML, DOCX, PDF, … The following are provided, just
+  to get you started:
+
+``` r
+fs::dir_ls(regexp = ".*template.*", recurse = TRUE) |> 
+  paste(collapse = "\n") |> 
+  cat()
+#> assignments/assign-template.R
+#> R/RMarkdown-template.Rmd
+#> R/RScript-template.R
+```
+
 ## Getting started
 
-If you are comfortable using GitHub, you can simply clone this repo to
-your own account
+I recommend that you set up an [RStudio
+project](https://support.posit.co/hc/en-us/articles/200526207-Using-RStudio-Projects)
+for your work in the course, where you can organize your notes and work
+on assignments, projects, etc.
+
+This repository on GitHub: [my6136](https://github.com/friendly/my6136)
+provides a template for this. You can simply download the ZIP file to
+your computer, unzip it, and then open it in RStudio (double-click on
+the file `my6136.Rproj`).
+
+<img src="images/download-my6136.jpg" height=300>
+
+If you are comfortable using GitHub, you can simply fork & clone this
+repo to your own account. Details on this are given in [fork and clone
+this repo](https://github.com/rstats-tln/fork-and-clone-repo). Thes
+images below show what’s involved for `my6136`.
+
+<img src="images/fork-my6136.jpg" height=80>
+
+<img src="images/clone-my6136.jpg" height=150>
+
+If you don’t yet use GitHub, you can easily [create a GitHub
+account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
+(**highly recommended**: Your future self will thank me!)
 
 ## Installing packages
 
+You will need a bunch of R packages for this course. The file
+`R/install-vcd-packages.R` contains the ones I recommend. Simply run
+this in RStudio.
+
 ## Using Git and GitHub
 
-This project is set up
+This project is set up…
+
+See:
+<https://jennybc.github.io/2014-05-12-ubc/ubc-r/session2.4_github.html>
+<https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r>
