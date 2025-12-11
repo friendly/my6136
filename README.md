@@ -57,13 +57,14 @@ the file `my6136.Rproj`).
 
 <img src="images/download-my6136.jpg" height=300>
 
+## Using GitHub
+
 If you are comfortable using GitHub, you can simply fork & clone this
 repo to your own account. Details on this are given in [fork and clone
-this repo](https://github.com/rstats-tln/fork-and-clone-repo). Thes
+this repo](https://github.com/rstats-tln/fork-and-clone-repo). The
 images below show what’s involved for `my6136`.
 
-<img src="images/fork-my6136.jpg" height=80>
-
+<img src="images/fork-my6136.jpg" height=60>    
 <img src="images/clone-my6136.jpg" height=150>
 
 If you don’t yet use GitHub, you can easily [create a GitHub

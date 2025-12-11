@@ -51,8 +51,8 @@ Details on this are given in [fork and clone this repo](https://github.com/rstat
 what's involved for `my6136`. 
 
 <img src="images/fork-my6136.jpg" height=60>
-&nbrsp;
-<img src="images/clone-my6136.jpg" height=120>
+&nbsp; &nbsp;
+<img src="images/clone-my6136.jpg" height=150>
 
 If you don't yet use GitHub, you can easily [create a GitHub account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github) (**highly recommended**: Your future self will thank me!)
 
