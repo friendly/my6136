@@ -68,8 +68,8 @@ account](https://docs.github.com/en/get-started/start-your-journey/creating-an-a
 ## Installing packages
 
 You will need a bunch of R packages for this course. The file
-`R/install-vcd-packages.R` contains the ones I recommend. Simply run
-this in RStudio.
+[`R/install-vcd-packages.R`](R/install-vcd-packages.R) contains the ones
+I recommend. Simply run this in RStudio.
 
 ## Using Git and GitHub
 
