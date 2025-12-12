@@ -6,8 +6,8 @@
 #  source("https://friendly.github.io/psy6136/psy6136/R/install-vcd-pkgs.R")
 #   
 
-# main packages for the VCD short course
-vcdpkgs <-c("vcd", "vcdExtra", "ca", "car", "catspec", "coin", "corrgram", "effects", 
+# main packages for the VCD short course [ removed: "catspec" as archived]
+vcdpkgs <-c("vcd", "vcdExtra", "ca", "car", "coin", "corrgram", "effects", 
             "gmodels", "gnm", "reshape", "catdata", "pscl")
 
 # other useful packages

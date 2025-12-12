@@ -15,33 +15,27 @@ provides:
 - A reasonable organization of folders for your work. Feel free to add
   any others
 
-``` r
-fs::dir_tree(recurse = FALSE)
-#> .
-#> ├── assignments
-#> ├── data
-#> ├── images
-#> ├── lecture-notes
-#> ├── my6136.Rproj
-#> ├── R
-#> ├── README.md
-#> ├── README.Rmd
-#> └── tutorials
-```
+<!-- -->
+
+    my6136
+      ├── assign
+      ├── data
+      ├── images
+      ├── notes
+      ├── R
+      └── tutorials
 
 - Some templates for using Rmarkdown in assignments or projects and also
   for setting up R scripts so you “compile” them with [knitr]() to
   produce output in HTML, DOCX, PDF, … The following are provided, just
   to get you started:
 
-``` r
-fs::dir_ls(regexp = ".*template.*", recurse = TRUE) |> 
-  paste(collapse = "\n") |> 
-  cat()
-#> assignments/assign-template.R
-#> R/RMarkdown-template.Rmd
-#> R/RScript-template.R
-```
+  - [Assignment template](assign/assign-template.R): Simple template for
+    using an R script for an assignment
+  - [Rmarkdown template](R/RMarkdown-template.Rmd): For a report, with
+    more text than code. Code is in R “chunks”
+  - [R script template](R/RScript-template.R): For an R script, with
+    output rendered to HTML, DOCX, or PDF
 
 ## Getting started
 
@@ -79,10 +73,10 @@ this in RStudio.
 
 ## Using Git and GitHub
 
-For more details on using Git and Github for working with R,
+For more details on using Git and Github for working with R, see:
 
-See:
+- Jenny Bryan’s [Getting Started with
+  GitHub](https://jennybc.github.io/2014-05-12-ubc/ubc-r/session2.4_github.html)
 
-- <https://jennybc.github.io/2014-05-12-ubc/ubc-r/session2.4_github.html>
-
-- <https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r>
+- [How to use Git and GitHub with
+  R](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r)

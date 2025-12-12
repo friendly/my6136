@@ -21,14 +21,28 @@ This GitHub repo provides a template you can use to organize your work for
 
 * A reasonable organization of folders for your work. Feel free to add any others
 
-```{r}
+```{r eval=FALSE, echo=FALSE}
 fs::dir_tree(recurse = FALSE)
+```
+
+```
+my6136
+  ├── assign
+  ├── data
+  ├── images
+  ├── notes
+  ├── R
+  └── tutorials
 ```
 
 * Some templates for using Rmarkdown in assignments or projects and also for setting up R scripts so you "compile" them with [knitr]() to produce
 output in HTML, DOCX, PDF, ... The following are provided, just to get you started:
 
-```{r}
+  * [Assignment template](assign/assign-template.R): Simple template for using an R script for an assignment
+  * [Rmarkdown template](R/RMarkdown-template.Rmd): For a report, with more text than code. Code is in R "chunks"
+  * [R script template](R/RScript-template.R): For an R script, with output rendered to HTML, DOCX, or PDF
+
+```{r echo=FALSE, eval=FALSE}
 fs::dir_ls(regexp = ".*template.*", recurse = TRUE) |> 
   paste(collapse = "\n") |> 
   cat()
@@ -64,11 +78,10 @@ You will need a bunch of R packages for this course. The file `R/install-vcd-pac
 ## Using Git and GitHub
 
 For more details on using Git and Github for working with R, 
+see: 
 
-See: 
+* Jenny Bryan's [Getting Started with GitHub](https://jennybc.github.io/2014-05-12-ubc/ubc-r/session2.4_github.html)
 
-* https://jennybc.github.io/2014-05-12-ubc/ubc-r/session2.4_github.html
-
-* https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r
+* [How to use Git and GitHub with R](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r)
 
 

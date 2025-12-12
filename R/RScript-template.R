@@ -7,16 +7,20 @@
 #'     theme: readable
 #'     code_download: true
 #'   word_document: default
+#'   pdf_document:
+#'      number_sections: true
 #' ---
 
 #+ echo=FALSE
 knitr::opts_chunk$set(
   warning = FALSE,   # avoid warnings and messages in the output
-  message = FALSE    # with FALSE, they appear in the console
+  message = FALSE,    # with FALSE, they appear in the console
+  fig.height = 5,    # set default figure size
+  fig.width = 6
 )
 
 #' This is a sample R script, formatted so that you can use `File -> Compile Report` or
-#' `Ctrl+Shift+K` to run analyses and turn it into an HTML document, or a Word document.
+#' `Ctrl+Shift+K` to run analyses and turn it into an HTML document, a Word document or a PDF.
 #' The general rule is that everything is just R code, but comments that begin with
 #' `#'` are treated as text in the output.
 #' 
