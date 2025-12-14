@@ -46,8 +46,9 @@ for your work in the course, where you can organize your notes and work
 on assignments, projects, etc.
 
 This repository on GitHub: [my6136](https://github.com/friendly/my6136)
-provides a template for this. You can simply download the ZIP file to
-your computer, unzip it, and then open it in RStudio (double-click on
+provides a template for this. You can simply [download the ZIP
+file](https://github.com/friendly/my6136/archive/refs/heads/master.zip)
+to your computer, unzip it, and then open it in RStudio (double-click on
 the file `my6136.Rproj`).
 
 <img src="images/download-my6136.jpg" height=300>
