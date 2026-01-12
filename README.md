@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# my6136 <img src="https://friendly.github.io/psy6136/icons/psy6136-highres.png" height="64px" align="right">
+# my6136 <img src="images/my6136.jpg" height="80px" align="right">
 
 <!-- badges: start -->
 
